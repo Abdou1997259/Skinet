@@ -1,0 +1,902 @@
+[
+    {
+        
+        "Name": "Men's Blue Denim Jeans",
+        "Description": "Classic fit denim jeans for men, perfect for casual wear.",
+        "Price": 39.99,
+        "PictureUrl": "image/product/mens_jeans.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Black Leather Jacket",
+        "Description": "Stylish leather jacket for women, ideal for cool weather.",
+        "Price": 89.99,
+        "PictureUrl": "image/product/womens_leather_jacket.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Casual Plaid Shirt",
+        "Description": "Comfortable plaid shirt for men, suitable for everyday wear.",
+        "Price": 24.99,
+        "PictureUrl": "image/product/mens_plaid_shirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Floral Summer Dress",
+        "Description": "Lightweight floral dress for women, perfect for summer outings.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/womens_summer_dress.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Sports Hoodie",
+        "Description": "Athletic hoodie for men, great for workouts and casual wear.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/mens_sports_hoodie.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Skinny Jeans",
+        "Description": "Trendy skinny jeans for women, versatile and comfortable.",
+        "Price": 44.99,
+        "PictureUrl": "image/product/womens_skinny_jeans.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Formal Dress Shirt",
+        "Description": "Classic formal shirt for men, suitable for business or formal occasions.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/mens_formal_shirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wool Coat",
+        "Description": "Warm wool coat for women, elegant and stylish for winter.",
+        "Price": 119.99,
+        "PictureUrl": "image/product/womens_wool_coat.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Cargo Shorts",
+        "Description": "Functional cargo shorts for men, perfect for outdoor activities.",
+        "Price": 27.99,
+        "PictureUrl": "image/product/mens_cargo_shorts.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Knit Sweater",
+        "Description": "Cozy knit sweater for women, ideal for chilly days.",
+        "Price": 39.99,
+        "PictureUrl": "image/product/womens_knit_sweater.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Winter Parka Jacket",
+        "Description": "Heavy-duty parka jacket for men, designed for extreme cold weather.",
+        "Price": 149.99,
+        "PictureUrl": "image/product/mens_winter_parka.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Printed Blouse",
+        "Description": "Chic printed blouse for women, perfect for office or casual wear.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/womens_printed_blouse.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Slim Fit Chinos",
+        "Description": "Modern slim fit chinos for men, ideal for a polished look.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/mens_slim_fit_chinos.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Denim Skirt",
+        "Description": "Stylish denim skirt for women, versatile and comfortable for everyday wear.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/womens_denim_skirt.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Crewneck Sweatshirt",
+        "Description": "Casual crewneck sweatshirt for men, great for layering.",
+        "Price": 19.99,
+        "PictureUrl": "image/product/mens_crewneck_sweatshirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Puffer Jacket",
+        "Description": "Lightweight puffer jacket for women, ideal for transitional weather.",
+        "Price": 69.99,
+        "PictureUrl": "image/product/womens_puffer_jacket.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Cargo Pants",
+        "Description": "Durable cargo pants for men, perfect for outdoor adventures.",
+        "Price": 37.99,
+        "PictureUrl": "image/product/mens_cargo_pants.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Maxi Dress",
+        "Description": "Elegant maxi dress for women, ideal for formal occasions.",
+        "Price": 59.99,
+        "PictureUrl": "image/product/womens_maxi_dress.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's V-Neck Sweater",
+        "Description": "Classic v-neck sweater for men, perfect for layering over shirts.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/mens_vneck_sweater.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Faux Leather Leggings",
+        "Description": "Stylish faux leather leggings for women, comfortable and chic.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/womens_faux_leather_leggings.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Striped Polo Shirt",
+        "Description": "Casual striped polo shirt for men, great for a laid-back look.",
+        "Price": 22.99,
+        "PictureUrl": "image/product/mens_striped_polo_shirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Cropped Hoodie",
+        "Description": "Trendy cropped hoodie for women, perfect for athleisure styling.",
+        "Price": 27.99,
+        "PictureUrl": "image/product/womens_cropped_hoodie.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Dress Shoes",
+        "Description": "Classic dress shoes for men, suitable for formal occasions.",
+        "Price": 59.99,
+        "PictureUrl": "image/product/mens_dress_shoes.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Slip-On Sneakers",
+        "Description": "Comfortable slip-on sneakers for women, perfect for casual wear.",
+        "Price": 39.99,
+        "PictureUrl": "image/product/womens_slip_on_sneakers.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Quilted Vest",
+        "Description": "Stylish quilted vest for men, great for layering in cooler weather.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/mens_quilted_vest.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Floral Print Blouse",
+        "Description": "Chic floral print blouse for women, perfect for adding flair to any outfit.",
+        "Price": 32.99,
+        "PictureUrl": "image/product/womens_floral_blouse.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Bomber Jacket",
+        "Description": "Stylish bomber jacket for men, perfect for casual and urban looks.",
+        "Price": 79.99,
+        "PictureUrl": "image/product/mens_bomber_jacket.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Midi Skirt",
+        "Description": "Versatile midi skirt for women, ideal for work or weekends.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/womens_midi_skirt.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Graphic T-Shirt",
+        "Description": "Cool graphic print t-shirt for men, perfect for casual street style.",
+        "Price": 19.99,
+        "PictureUrl": "image/product/mens_graphic_tshirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wide-Leg Pants",
+        "Description": "Fashionable wide-leg pants for women, comfortable and trendy.",
+        "Price": 42.99,
+        "PictureUrl": "image/product/womens_wide_leg_pants.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Denim Jacket",
+        "Description": "Classic denim jacket for men, perfect for layering over shirts.",
+        "Price": 69.99,
+        "PictureUrl": "image/product/mens_denim_jacket.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Trench Coat",
+        "Description": "Timeless trench coat for women, stylish and practical for all seasons.",
+        "Price": 89.99,
+        "PictureUrl": "image/product/womens_trench_coat.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Cargo Jacket",
+        "Description": "Utility-inspired cargo jacket for men, great for outdoor adventures.",
+        "Price": 79.99,
+        "PictureUrl": "image/product/mens_cargo_jacket.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Floral Midi Dress",
+        "Description": "Charming floral midi dress for women, perfect for spring and summer.",
+        "Price": 54.99,
+        "PictureUrl": "image/product/womens_floral_midi_dress.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Slim Fit Suit",
+        "Description": "Modern slim fit suit for men, ideal for formal occasions.",
+        "Price": 189.99,
+        "PictureUrl": "image/product/mens_slim_fit_suit.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wool Beret",
+        "Description": "Classic wool beret for women, perfect for adding a chic touch to any outfit.",
+        "Price": 19.99,
+        "PictureUrl": "image/product/womens_wool_beret.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Casual Sneakers",
+        "Description": "Versatile casual sneakers for men, suitable for everyday wear.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/mens_casual_sneakers.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Linen Blazer",
+        "Description": "Lightweight linen blazer for women, perfect for spring and summer.",
+        "Price": 59.99,
+        "PictureUrl": "image/product/womens_linen_blazer.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Fleece Pullover",
+        "Description": "Cozy fleece pullover for men, great for outdoor activities and lounging.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/mens_fleece_pullover.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Striped Jumpsuit",
+        "Description": "Stylish striped jumpsuit for women, perfect for a fashion-forward look.",
+        "Price": 69.99,
+        "PictureUrl": "image/product/womens_striped_jumpsuit.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Chino Shorts",
+        "Description": "Classic chino shorts for men, great for summer days.",
+        "Price": 24.99,
+        "PictureUrl": "image/product/mens_chino_shorts.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Lace Trim Camisole",
+        "Description": "Pretty lace trim camisole for women, perfect for layering.",
+        "Price": 17.99,
+        "PictureUrl": "image/product/womens_lace_camisole.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Linen Shirt",
+        "Description": "Breathable linen shirt for men, ideal for warm weather.",
+        "Price": 39.99,
+        "PictureUrl": "image/product/mens_linen_shirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Denim Jacket",
+        "Description": "Classic denim jacket for women, perfect for layering over dresses or tops.",
+        "Price": 59.99,
+        "PictureUrl": "image/product/womens_denim_jacket.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Cargo Jogger Pants",
+        "Description": "Comfortable cargo jogger pants for men, great for lounging or casual wear.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/mens_cargo_joggers.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Oversized Sweater",
+        "Description": "Cozy oversized sweater for women, perfect for chilly days.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/womens_oversized_sweater.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Leather Belt",
+        "Description": "Classic leather belt for men, a timeless accessory.",
+        "Price": 24.99,
+        "PictureUrl": "image/product/mens_leather_belt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wool Fedora Hat",
+        "Description": "Sophisticated wool fedora hat for women, perfect for adding flair to any outfit.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/womens_wool_fedora.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Hooded Windbreaker",
+        "Description": "Lightweight hooded windbreaker for men, ideal for outdoor activities.",
+        "Price": 44.99,
+        "PictureUrl": "image/product/mens_windbreaker.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Ruffle Blouse",
+        "Description": "Elegant ruffle blouse for women, perfect for dressing up or down.",
+        "Price": 32.99,
+        "PictureUrl": "image/product/womens_ruffle_blouse.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Casual Cargo Jacket",
+        "Description": "Stylish casual cargo jacket for men, great for urban adventures.",
+        "Price": 69.99,
+        "PictureUrl": "image/product/mens_casual_cargo_jacket.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's High-Waisted Jeans",
+        "Description": "Flattering high-waisted jeans for women, perfect for everyday wear.",
+        "Price": 39.99,
+        "PictureUrl": "image/product/womens_high_waisted_jeans.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Casual Button-Down Shirt",
+        "Description": "Versatile casual button-down shirt for men, suitable for various occasions.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/mens_casual_shirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Quilted Vest",
+        "Description": "Lightweight quilted vest for women, great for layering over sweaters.",
+        "Price": 27.99,
+        "PictureUrl": "image/product/womens_quilted_vest.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Performance Polo Shirt",
+        "Description": "Moisture-wicking performance polo shirt for men, perfect for active days.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/mens_performance_polo.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Faux Fur Coat",
+        "Description": "Luxurious faux fur coat for women, perfect for special occasions.",
+        "Price": 129.99,
+        "PictureUrl": "image/product/womens_faux_fur_coat.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Corduroy Pants",
+        "Description": "Classic corduroy pants for men, great for a vintage-inspired look.",
+        "Price": 44.99,
+        "PictureUrl": "image/product/mens_corduroy_pants.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wool Scarf",
+        "Description": "Cozy wool scarf for women, perfect for keeping warm in style.",
+        "Price": 19.99,
+        "PictureUrl": "image/product/womens_wool_scarf.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Slim Fit Trousers",
+        "Description": "Modern slim fit trousers for men, perfect for work or evenings out.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/mens_slim_fit_trousers.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Off-Shoulder Sweater",
+        "Description": "Stylish off-shoulder sweater for women, perfect for a trendy look.",
+        "Price": 37.99,
+        "PictureUrl": "image/product/womens_off_shoulder_sweater.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Flannel Shirt",
+        "Description": "Classic flannel shirt for men, great for layering over tees.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/mens_flannel_shirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Ankle Boots",
+        "Description": "Stylish ankle boots for women, versatile and perfect for all seasons.",
+        "Price": 59.99,
+        "PictureUrl": "image/product/womens_ankle_boots.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Puffer Vest",
+        "Description": "Lightweight puffer vest for men, great for layering over hoodies.",
+        "Price": 39.99,
+        "PictureUrl": "image/product/mens_puffer_vest.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Pleated Skirt",
+        "Description": "Chic pleated skirt for women, perfect for a feminine look.",
+        "Price": 32.99,
+        "PictureUrl": "image/product/womens_pleated_skirt.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Fleece Zip-Up Hoodie",
+        "Description": "Cozy fleece zip-up hoodie for men, great for outdoor activities.",
+        "Price": 44.99,
+        "PictureUrl": "image/product/mens_fleece_hoodie.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Turtleneck Sweater",
+        "Description": "Classic turtleneck sweater for women, perfect for layering in colder weather.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/womens_turtleneck_sweater.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Leather Wallet",
+        "Description": "Classic leather wallet for men, a functional and stylish accessory.",
+        "Price": 19.99,
+        "PictureUrl": "image/product/mens_leather_wallet.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wool Mittens",
+        "Description": "Warm wool mittens for women, perfect for cold winter days.",
+        "Price": 14.99,
+        "PictureUrl": "image/product/womens_wool_mittens.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Oxford Shoes",
+        "Description": "Classic Oxford shoes for men, suitable for both formal and casual wear.",
+        "Price": 59.99,
+        "PictureUrl": "image/product/mens_oxford_shoes.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wrap Dress",
+        "Description": "Flattering wrap dress for women, perfect for day-to-night transitions.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/womens_wrap_dress.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Varsity Jacket",
+        "Description": "Cool varsity jacket for men, great for a sporty and casual look.",
+        "Price": 79.99,
+        "PictureUrl": "image/product/mens_varsity_jacket.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Belted Trench Coat",
+        "Description": "Timeless belted trench coat for women, a classic wardrobe staple.",
+        "Price": 99.99,
+        "PictureUrl": "image/product/womens_belted_trench_coat.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Checked Shirt",
+        "Description": "Stylish checked shirt for men, perfect for a casual yet polished look.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/mens_checked_shirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Faux Suede Jacket",
+        "Description": "Chic faux suede jacket for women, perfect for layering in transitional weather.",
+        "Price": 54.99,
+        "PictureUrl": "image/product/womens_faux_suede_jacket.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Casual Slim Fit Pants",
+        "Description": "Modern casual slim fit pants for men, perfect for versatile styling.",
+        "Price": 44.99,
+        "PictureUrl": "image/product/mens_casual_slim_fit_pants.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Ruffled Wrap Top",
+        "Description": "Flattering ruffled wrap top for women, perfect for adding a feminine touch.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/womens_ruffled_wrap_top.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Active Joggers",
+        "Description": "Comfortable active joggers for men, perfect for workouts or lounging.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/mens_active_joggers.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Oversized Denim Jacket",
+        "Description": "On-trend oversized denim jacket for women, perfect for layering.",
+        "Price": 69.99,
+        "PictureUrl": "image/product/womens_oversized_denim_jacket.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Knit Beanie",
+        "Description": "Warm knit beanie for men, a practical accessory for cold weather.",
+        "Price": 14.99,
+        "PictureUrl": "image/product/mens_knit_beanie.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Fitted Blazer",
+        "Description": "Versatile fitted blazer for women, perfect for both professional and casual looks.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/womens_fitted_blazer.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Cargo Work Pants",
+        "Description": "Durable cargo work pants for men, perfect for rugged outdoor work.",
+        "Price": 39.99,
+        "PictureUrl": "image/product/mens_cargo_work_pants.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Faux Leather Jacket",
+        "Description": "Edgy faux leather jacket for women, perfect for adding a bold touch.",
+        "Price": 79.99,
+        "PictureUrl": "image/product/womens_faux_leather_jacket.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Classic Polo Shirt",
+        "Description": "Timeless classic polo shirt for men, a wardrobe staple.",
+        "Price": 24.99,
+        "PictureUrl": "image/product/mens_classic_polo_shirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Satin Camisole",
+        "Description": "Luxurious satin camisole for women, perfect for evening wear.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/womens_satin_camisole.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Slim Fit Denim Jeans",
+        "Description": "Modern slim fit denim jeans for men, perfect for everyday wear.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/mens_slim_fit_denim_jeans.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wool Poncho",
+        "Description": "Cozy wool poncho for women, perfect for layering over sweaters.",
+        "Price": 59.99,
+        "PictureUrl": "image/product/womens_wool_poncho.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Hooded Sweatshirt",
+        "Description": "Comfortable hooded sweatshirt for men, great for casual outings.",
+        "Price": 29.99,
+        "PictureUrl": "image/product/mens_hooded_sweatshirt.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Pencil Skirt",
+        "Description": "Classic pencil skirt for women, perfect for office or evening wear.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/womens_pencil_skirt.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Wool Peacoat",
+        "Description": "Timeless wool peacoat for men, stylish and warm for colder months.",
+        "Price": 129.99,
+        "PictureUrl": "image/product/mens_wool_peacoat.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Striped Sweater Dress",
+        "Description": "Chic striped sweater dress for women, perfect for casual outings.",
+        "Price": 42.99,
+        "PictureUrl": "image/product/womens_striped_sweater_dress.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Wool Beanie",
+        "Description": "Warm wool beanie for men, ideal for cold weather adventures.",
+        "Price": 19.99,
+        "PictureUrl": "image/product/mens_wool_beanie.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Utility Jacket",
+        "Description": "Functional utility jacket for women, great for outdoor activities.",
+        "Price": 59.99,
+        "PictureUrl": "image/product/womens_utility_jacket.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Flannel-Lined Jacket",
+        "Description": "Warm flannel-lined jacket for men, perfect for colder weather.",
+        "Price": 79.99,
+        "PictureUrl": "image/product/mens_flannel_lined_jacket.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wool Gloves",
+        "Description": "Cozy wool gloves for women, perfect for keeping hands warm.",
+        "Price": 14.99,
+        "PictureUrl": "image/product/womens_wool_gloves.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Crewneck Sweater",
+        "Description": "Classic crewneck sweater for men, a versatile wardrobe essential.",
+        "Price": 34.99,
+        "PictureUrl": "image/product/mens_crewneck_sweater.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Cargo Pants",
+        "Description": "Stylish cargo pants for women, perfect for casual and outdoor wear.",
+        "Price": 39.99,
+        "PictureUrl": "image/product/womens_cargo_pants.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    },
+    {
+        
+        "Name": "Men's Performance Shorts",
+        "Description": "Moisture-wicking performance shorts for men, great for workouts.",
+        "Price": 24.99,
+        "PictureUrl": "image/product/mens_performance_shorts.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Wool Coat",
+        "Description": "Classic wool coat for women, timeless and stylish for any occasion.",
+        "Price": 99.99,
+        "PictureUrl": "image/product/womens_wool_coat.jpg",
+        "ProductTypeId": 3,
+        "ProdcutBrandId": 5
+    },
+    {
+        
+        "Name": "Men's Chukka Boots",
+        "Description": "Stylish chukka boots for men, perfect for a smart-casual look.",
+        "Price": 69.99,
+        "PictureUrl": "image/product/mens_chukka_boots.jpg",
+        "ProductTypeId": 1,
+        "ProdcutBrandId": 7
+    },
+    {
+        
+        "Name": "Women's Knit Sweater Dress",
+        "Description": "Cozy knit sweater dress for women, perfect for colder days.",
+        "Price": 49.99,
+        "PictureUrl": "image/product/womens_knit_sweater_dress.jpg",
+        "ProductTypeId": 2,
+        "ProdcutBrandId": 6
+    }
+]
