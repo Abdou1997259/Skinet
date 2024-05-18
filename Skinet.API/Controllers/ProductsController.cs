@@ -4,36 +4,47 @@ using Infrastructure.Data;
 using Core.Entities;
 using Core.Interfaces;
 using Infrastructure.Data.Config;
+using Core.Specifications;
+using Skinet.API.DTOs;
+using AutoMapper;
 
 namespace Skinet.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductsController(IProductRepository repo) : ControllerBase
+    public class ProductsController(IGenericRepository<Product> prodcutRepo,
+        IGenericRepository<ProductType> productTypeRepo,
+        IGenericRepository<ProdcutBrand> productBrands,
+        IMapper _mapper
+        
+        )
+        
+        : ControllerBase
     {
 
       
-        [HttpGet]
-        
-        public async Task<ActionResult<List<Product>>> GetProducts(){
-            var  products=await repo.GetAllProductsAsync();
-            return Ok(products);
+        [HttpGet]      
+        public async Task<ActionResult<IReadOnlyList<ProdcutDto>>> GetProducts(){
+            var spec = new ProductsWithTypesAndBrandsSpectification();
+            var  products=await prodcutRepo.ListAync(spec);
+            return Ok(_mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProdcutDto>>(products));
         }
         [HttpGet]
         [Route("{Id}")]
-        public async Task<ActionResult<Product>> GetById(int Id){
-            var product=await repo.GetProductByIdAsync(Id);
-            return product;
+        public async Task<ActionResult<ProdcutDto>> GetById(int Id){
+            var spec = new ProductsWithTypesAndBrandsSpectification(Id);
+            var product=await prodcutRepo.GetEntityWithSpec(spec);
+            return _mapper.Map<Product,ProdcutDto>(product);
         }
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProdcutBrand>>> GetProdcutBrands()
         {
-            return Ok(await repo.GetAllProdcutBrandsAsync()) ;
+            return Ok(await productBrands.GetAllAsync()) ;
         }
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<ProductType>>> GetTypesBrands()
         {
-            return Ok(await repo.GetAllProdcutTypesAsync());
+            return Ok(await productTypeRepo.GetAllAsync());
         }
 
     }

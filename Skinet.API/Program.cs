@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Infrastructure.Data;
 using Core.Interfaces;
+using Skinet.API.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<StoreContext>(p=>p.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddAutoMapper(typeof(MappingProfiles));
+builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GeneritcRespostory<>));  
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
@@ -43,7 +46,7 @@ using (var scope = app.Services.CreateScope())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseStaticFiles();
 app.MapControllers();
 
 app.Run();
