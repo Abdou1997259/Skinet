@@ -10,8 +10,7 @@ using AutoMapper;
 
 namespace Skinet.API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
+
     public class ProductsController(IGenericRepository<Product> prodcutRepo,
         IGenericRepository<ProductType> productTypeRepo,
         IGenericRepository<ProdcutBrand> productBrands,
@@ -19,7 +18,7 @@ namespace Skinet.API.Controllers
         
         )
         
-        : ControllerBase
+        : BaseApiController
     {
 
       
