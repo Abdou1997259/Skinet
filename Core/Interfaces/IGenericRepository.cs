@@ -16,3 +16,4 @@ namespace Core.Interfaces
         Task<IReadOnlyList<T>> ListAync(ISpecification<T> spec);
     }
 }
+    
