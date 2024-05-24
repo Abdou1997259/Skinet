@@ -22,6 +22,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<StoreContext>(p=>p.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddApplicaitonServices();
 builder.Services.AddSwaggerDocumention();
+builder.Services.AddCors(policy =>
+{
+    policy.AddPolicy("CorsPolicy", policy =>
+    {
+        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    });
+});
 
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
@@ -42,13 +49,14 @@ using (var scope = app.Services.CreateScope())
     }
 
 }
+
 app.UseMiddleware<ExceptionMiddleWare>();
 // Configure the HTTP request pipeline.
 app.UseSwaggerDocumention();
 app.UseStatusCodePagesWithReExecute("/error/{0}");
 
 app.UseHttpsRedirection();
-
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 app.UseStaticFiles();
 app.MapControllers();

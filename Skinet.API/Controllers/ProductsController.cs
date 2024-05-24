@@ -19,17 +19,28 @@ namespace Skinet.API.Controllers
         IGenericRepository<ProdcutBrand> productBrands,
         IMapper _mapper
         
-        )
-        
-        : BaseApiController
+        ): BaseApiController
     {
 
       
         [HttpGet]      
-        public async Task<ActionResult<IReadOnlyList<ProdcutDto>>> GetProducts(SortOptions sort){
-            var spec = new ProductsWithTypesAndBrandsSpectification(sort);
+        public async Task<ActionResult<Pagination<IReadOnlyList<ProdcutDto>>>> GetProducts(
+            [FromQuery] ProductSpecParams productParams ){
+
+            var spec = new ProductsWithTypesAndBrandsSpectification(productParams);
+
+            var specCount=new ProductCountWithFilteringSpecification(productParams);
+            var count=await prodcutRepo.CountAsync(specCount);
             var  products=await prodcutRepo.ListAync(spec);
-            return Ok(_mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProdcutDto>>(products));
+            var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProdcutDto>>(products);
+            return Ok(new Pagination<ProdcutDto>
+            {
+                Count=count,
+                Data= data,
+                PageSize=productParams.PageSize,
+                PageIndex=productParams.PageIndex
+
+            });
         }
         [HttpGet]
         [Route("{Id}")]
@@ -37,6 +48,7 @@ namespace Skinet.API.Controllers
         [ProducesResponseType(typeof(ApiResponse),StatusCodes.Status404NotFound)]
         public async Task<ActionResult<ProdcutDto>> GetById(int Id){
             var spec = new ProductsWithTypesAndBrandsSpectification(Id);
+            
             var product=await prodcutRepo.GetEntityWithSpec(spec);
 
             if (product is null)

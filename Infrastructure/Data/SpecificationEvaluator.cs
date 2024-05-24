@@ -10,8 +10,12 @@ namespace Infrastructure.Data
              {  
 
                var query = inputQuery;
+              if (spec.IsPagingEnabled)
+               {
+                query = query.Skip(spec.Skip).Take(spec.Take);
+               }
 
-               if(spec.Critria is not null )
+               if (spec.Critria is not null )
                {
                   query= query.Where(spec.Critria);
                }
@@ -19,6 +23,7 @@ namespace Infrastructure.Data
                {
                   query=  query.OrderBy(spec.OrderBy);
                }
+
                if(spec.OrderByDescending is not null)
                {
                 query = query.OrderByDescending(spec.OrderByDescending);

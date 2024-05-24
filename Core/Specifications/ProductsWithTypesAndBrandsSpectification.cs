@@ -3,16 +3,27 @@
 
 namespace Core.Specifications
 {
-    public class ProductsWithTypesAndBrandsSpectification:BaseSpecification<Product>
+    public class ProductsWithTypesAndBrandsSpectification : BaseSpecification<Product>
     {
-        public ProductsWithTypesAndBrandsSpectification(SortOptions sort)
+        public ProductsWithTypesAndBrandsSpectification(
+           ProductSpecParams prodcutParams
+
+            ) : base(x =>
+              (string.IsNullOrEmpty(prodcutParams.Search) || x.Name.ToLower().Contains(prodcutParams.Search)) &&
+              (!prodcutParams.BrandId.HasValue || x.ProdcutBrandId== prodcutParams.BrandId) &&
+              (!prodcutParams.TypeId.HasValue || x.ProductTypeId== prodcutParams.TypeId)
+            
+            )
         {
             AddInclude(x=>x.ProdcutBrands);
             AddInclude(x => x.ProductType);
-              
-            if(sort !=0)
+
+            ApplyingPaging(prodcutParams.PageSize * (prodcutParams.PageIndex - 1),
+                prodcutParams.PageSize);
+
+            if(prodcutParams.SortOptions != 0)
             {
-                switch(sort)
+                switch(prodcutParams.SortOptions)
                 {
                     case SortOptions.PRICE:
                         AddOrderBy(x => x.Price);
