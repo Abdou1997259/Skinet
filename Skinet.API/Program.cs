@@ -8,13 +8,22 @@ using Skinet.API.MiddleWare;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using Skinet.API.Errors;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Skinet.API.Authentication;
+using System.Text;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<PermissionBasedAuthorizationFilter>();
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     
 builder.Services.AddEndpointsApiExplorer();
@@ -28,6 +37,28 @@ builder.Services.AddCors(policy =>
     {
         policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
     });
+});
+var jwt=builder.Configuration.GetSection("Jwt").Get<Jwt>();
+builder.Services.AddSingleton(jwt);
+builder.Services.AddAuthentication()
+    .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, options =>
+{
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidIssuer = jwt.Issuer,
+        ValidateAudience = true,
+        ValidAudience = jwt.Audience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt.Key))
+    };
+
+
+});
+builder.Services.AddSingleton<IAuthorizationHandler, AgeAuthrizationHandler>();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("MoreThan25", builder=>builder.AddRequirements(new AgeGreaterThan25Requirement()));
 });
 
 var app = builder.Build();

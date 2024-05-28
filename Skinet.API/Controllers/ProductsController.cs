@@ -10,7 +10,9 @@ using AutoMapper;
 using Skinet.API.Helpers;
 using Skinet.API.Errors;
 using Microsoft.AspNetCore.Http;
-
+using Microsoft.AspNetCore.Authorization;
+using System.Security;
+using Skinet.API.Authentication;
 namespace Skinet.API.Controllers
 {
 
@@ -23,7 +25,10 @@ namespace Skinet.API.Controllers
     {
 
       
-        [HttpGet]      
+        [HttpGet]
+     
+        [Authorize(Policy= "MoreThan25")]
+        [CheckPermissions(Permission.ReadProduct)]
         public async Task<ActionResult<Pagination<IReadOnlyList<ProdcutDto>>>> GetProducts(
             [FromQuery] ProductSpecParams productParams ){
 
